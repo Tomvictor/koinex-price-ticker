@@ -19,7 +19,7 @@ data = r.json()
 
 print("XRP : " + data["prices"]["XRP"])
 
-read_string = "Hey Tomy, check the crypto update,"
+read_string = ""
 
 read_string += "Ripple coin"
 read_string += data["prices"]["XRP"]
